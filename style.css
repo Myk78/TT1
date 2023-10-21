@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Bhaina+2&family=Cherry+Bomb+One&family=Lexend+Deca:wght@100&family=Poppins:wght@200;400&family=Roboto:wght@300&family=Urbanist:wght@100&display=swap");
+
+/* Universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+:root {
+  --bs-dark-color: #212224;
+  --bs-dark-primary: #181616;
+  --bs-main-color: #fff;
+  --bs-primary-color: #c6c6c6;
+  --bs-secondary-color: #29a9fd;
+  --bs-supporting-color: #c850c0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Lexend Deca" sans-serif;
+  color: black;
+}
+h5 {
+  font-family: "Lexend Deca" sans-serif;
+  color: black;
+}
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 4rem;
+}
+p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.07rem;
+  line-height: 1.55rem;
+  font-synthesis: none;
+  text-rendering: optimizeSpeed;
+  color: var(--bs-dark-primary);
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.hero-section .container {
+  display: grid;
+  place-content: center;
+  height: inherit;
+}
+/* universal end */
+
+/* for Navbar */
+.nav-link {
+  color: var(--bs-main-color) !important;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: var(--bs-secondary-color) !important;
+}
+
+/* FOr Main */
+.bg-main {
+  height: 95vh;
+  position: relative;
+}
+.bg-color {
+  background-color: var(--bs-dark-primary);
+}
+
+/* apply in online-section digital model  */
+.common-section {
+  padding-bottom: 9rem;
+  padding-top: 3rem;
+}
+/* for Company into main class=>hero section */
+.text-light-grey {
+  color: var(--bs-main-color);
+}
+.text-dark {
+  color: var(--bs-dark-primary);
+}
+
+/* shaper divider */
+.custom-shape-divider-bottom-1697358136 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1697358136 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 64px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1697358136 .shape-fill {
+  fill: #ffffff;
+}
+/* for service section */
+.service-section {
+  padding: 6rem 0 3rem 0 !important;
+}
+/* a tag class name */
+.icon-background {
+  width: 2.5rem;
+  height: 2rem;
+  background-color: var(--secondary-color);
+  color: var(--bs-main-color);
+}
+.card-box:hover {
+  transition: all 0.3s linear;
+  box-shadow: 0 8px 24px gray;
+}
+
+/* digital product style more-info-section is main class */
+.more-info-section {
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.9),
+      rgba(22, 22, 22, 0.9)
+    ),
+    url(image/banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 6rem 0;
+  overflow: hidden;
+}
+.serviceexplan {
+}
+.business-section {
+  padding-top: 6rem;
+}
+
+/* online-section */
+
+/* carousel stylings */
+.carousel .card {
+  background-color: #262631;
+  color: var(--bs-main-color);
+  transition: all 0.3s linear;
+  /* transition: linear 0.3s all; */
+}
+.carousel-inner .card p {
+  color: var(--bs-main-color);
+}
+
+.carousel-inner .card:hover {
+  background-color: var(--bs-main-color);
+  color: black;
+}
+.carousel-inner .card:hover p {
+  color: var(--bs-dark-color);
+}
+/* slider kay neechay jo slide change karna wala h us ki class h ya */
+.carousel-indicators {
+  bottom: -60px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: var(--bs-secondary-color);
+}
+
+.fa-star {
+  color: var(--bs-supporting-color);
+}
+/* .card-body {
+  color: var(--bs-);
+} */
+.card {
+  background-color: #262631;
+}
+.card p {
+  color: var(--bs-main-color);
+}
+.card:hover p {
+  color: var(--bs-dark-color);
+}
+
+.card h5 {
+  color: white;
+}
+.card .card-title:hover {
+  color: var(--bs-dark-color);
+}
+
+.card:hover {
+  background-color: var(--bs-main-color);
+  color: black;
+  transition: all 0.6s linear;
+  box-shadow: 0 8px 24px gray;
+}
+.contact-section {
+  position: relative;
+}
+/* contact us  section*/
+.common-title hr:not([size]) {
+  height: 3px;
+  color: white;
+}
+
+/* shape divider for contact us section */
+.custom-shape-divider-top-1697468688 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1697468688 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 110px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1697468688 .shape-fill {
+  fill: #ffffff;
+}
+/* label class form kay undar h jo text-feild kay oper label ka colr dai  */
+.label {
+  color: var(--bs-main-color);
+  width: 50%;
+}
+/* footer */
+
+/*icons ka bg ka div in footer */
+.contact-div {
+  background-color: var(--bs-dark-color);
+}
