@@ -50,7 +50,7 @@ li {
   list-style: none;
 }
 
-/* ----FOR NAVBAR----- */
+/* ------------------------FOR NAVBAR----- */
 .background-color {
   background-color: #cfdee7 !important;
   box-shadow: 0 8px 24px gray;
@@ -79,4 +79,17 @@ li {
   border-radius: 20px;
   max-width: 100%;
   width: 60%;
+}
+
+/* --------------------FOR INTRODUCTION */
+.intro-img {
+  border-radius: 20px;
+  max-width: 100%;
+  width: 80%;
+  height: 100%;
+}
+
+/* -------------------------For SERVICES  */
+.services {
+  background-color: #f1f1f1;
 }
