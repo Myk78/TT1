@@ -97,6 +97,9 @@ li {
   transition: all 0.9s;
   box-shadow: 0 8px 24px rgb(136, 109, 109);
 }
+.services .btn {
+  width: auto;
+}
 
 /* ------------------------FOR FEEDBACK */
 
