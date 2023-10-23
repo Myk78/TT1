@@ -110,3 +110,18 @@ li {
   border-radius: 10px;
   box-shadow: 0 8px 24px rgb(129, 126, 126);
 }
+
+/* ----------------------------FOR CONTACT */
+.contact {
+  background-color: #212224;
+  padding: 6rem 0 3rem 0 !important;
+}
+.contact label {
+  color: var(--bs-main-color);
+}
+.btn {
+  width: 30%;
+}
+.contact hr {
+  color: var(--bs-main-color);
+}
