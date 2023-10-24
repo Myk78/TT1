@@ -100,6 +100,10 @@ li {
 .services .btn {
   width: auto;
 }
+.imgwidth {
+  height: 50%;
+  width: 100%;
+}
 
 /* ------------------------FOR FEEDBACK */
 
