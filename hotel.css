@@ -61,7 +61,7 @@ li {
 }
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(image/visit-lake-in-swat.jpg);
+    url(image/hotel.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -79,62 +79,4 @@ li {
   border-radius: 20px;
   max-width: 100%;
   width: 60%;
-}
-
-/* --------------------FOR INTRODUCTION */
-.intro-img {
-  border-radius: 20px;
-  max-width: 100%;
-  width: 80%;
-  height: 100%;
-}
-
-/* -------------------------For SERVICES  */
-.services {
-  background-color: #f1f1f1;
-}
-.card:hover {
-  transition: all 0.9s;
-  box-shadow: 0 8px 24px rgb(136, 109, 109);
-}
-.services .btn {
-  width: auto;
-}
-.custom_card_img img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-}
-
-.card_width {
-  width: auto;
-  height: 100%;
-}
-
-/* ------------------------FOR FEEDBACK */
-
-/* feedback section may col may ya class h */
-.feedback {
-  position: relative;
-}
-
-.feedback-color {
-  background-color: #e4c6c6;
-  border-radius: 10px;
-  box-shadow: 0 8px 24px rgb(129, 126, 126);
-}
-
-/* ----------------------------FOR CONTACT */
-.contact {
-  background-color: #212224;
-  padding: 6rem 0 3rem 0 !important;
-}
-.contact label {
-  color: var(--bs-main-color);
-}
-.btn {
-  width: 30%;
-}
-.contact hr {
-  color: var(--bs-main-color);
 }
