@@ -101,9 +101,9 @@ li {
   width: auto;
 }
 .custom_card_img img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
+  width: auto;
+  height: auto;
+  /* object-fit: cover; */
 }
 
 .card_width {

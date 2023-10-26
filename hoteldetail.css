@@ -80,44 +80,8 @@ li {
   max-width: 100%;
   width: 90%;
 }
-/* -------------------------For Hotels */
-.hotel {
-  background-color: #f1f1f1;
-}
-.card:hover {
-  transition: all 0.9s;
-  box-shadow: 0 8px 24px rgb(136, 109, 109);
-}
-.hotel.btn {
-  width: auto;
-}
-.custom_card_img img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-}
 
-.card_width {
-  width: auto;
-  height: 100%;
-}
-
-/* slider ka button ki class  */
-.carousel-indicators [data-bs-target] {
-  width: 0.7rem;
-  height: 0.7rem;
-  background-color: var(--bs-secondary-color);
-}
-
-/* ------------------------FOR FEEDBACK */
-
-/* feedback section may col may ya class h */
-.feedback {
-  position: relative;
-}
-
-.feedback-color {
-  background-color: #e4c6c6;
+/* -------IMage------------- */
+.round_img div img {
   border-radius: 10px;
-  box-shadow: 0 8px 24px rgb(129, 126, 126);
 }
