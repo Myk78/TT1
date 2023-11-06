@@ -85,3 +85,6 @@ li {
 .round_img div img {
   border-radius: 10px;
 }
+.linespace {
+  line-height: 2rem;
+}
