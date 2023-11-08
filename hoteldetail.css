@@ -85,6 +85,27 @@ li {
 .round_img div img {
   border-radius: 10px;
 }
+.rowheight {
+  /* width: 0.75rem; */
+}
+.rowheight {
+  --bs-gutter-x: 0.5rem;
+  --bs-gutter-y: 0;
+}
 .linespace {
   line-height: 2rem;
+}
+
+/* room detail */
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+.small-img {
+  flex-basis: 24%;
+  gr
 }
